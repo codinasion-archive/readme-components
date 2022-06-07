@@ -1,7 +1,7 @@
-## [Readme Quotes](https://github.com/codinasion/readme-quotes)
+## [Readme Quotes](https://github.com/codinasion/readme-quote)
 
-![readme-quotes](https://codinasion.vercel.app/api/readme-quotes)
+![readme-quote](https://codinasion.vercel.app/api/readme-quote)
 
 ```md
-![readme-quotes](https://codinasion.vercel.app/api/readme-quotes)
+![readme-quote](https://codinasion.vercel.app/api/readme-quote)
 ```
