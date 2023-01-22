@@ -1,31 +1,24 @@
 name: 🐛 Bug
 description: Report an issue to help improve the project.
-labels: ["🛠 goal: fix"]
+labels: ["bug"]
 body:
   - type: markdown
     attributes:
       value: |
-        **Hubbers!!** This is an open source repo.
+        **Hey Geek !!!** 
 
-        * For questions, ask in [Discussions](https://github.com/codinasion/README/discussions).
-        * Before you file an issue read the [Contributing guide](https://github.com/codinasion/README/blob/master/CONTRIBUTING.md).
-        * Check to make sure someone hasn't already opened a similar [issue](https://github.com/codinasion/README/issues).
+        This is an open source repository.
+
+        * For questions, ask in [Discussions](https://github.com/orgs/codinasion/discussions).
+        * Check to make sure someone hasn't already opened a similar [issue](https://github.com/codinasion/readme-components/issues).
 
   - type: textarea
     id: description
     attributes:
       label: Description
-      description: A brief description of the question or issue, also include what you tried and what didn't work
+      description: A brief description of the question or issue
     validations:
       required: true
-
-  - type: textarea
-    id: screenshots
-    attributes:
-      label: Screenshots
-      description: Please add screenshots if applicable
-    validations:
-      required: false
 
   - type: textarea
     id: extrainfo
@@ -34,3 +27,12 @@ body:
       description: Is there anything else we should know about this bug?
     validations:
       required: false
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: This project has a Code of Conduct that all participants are expected to understand and follow.
+      options:
+        - label: I have read and agree to the Codinasion project's [Code of Conduct](CODE_OF_CONDUCT.md)
+          required: true

@@ -1,15 +1,15 @@
 name: Other
 description: Use this for any other issues. Please do NOT create blank issues
-labels: ["🚦 status: awaiting triage"]
 body:
   - type: markdown
     attributes:
       value: |
-        **Hubbers!!** This is an open source repo.
+        **Hey Geek !!!** 
 
-        * For questions, ask in [Discussions](https://github.com/codinasion/README/discussions).
-        * Before you file an issue read the [Contributing guide](https://github.com/codinasion/README/blob/master/CONTRIBUTING.md).
-        * Check to make sure someone hasn't already opened a similar [issue](https://github.com/codinasion/README/issues).
+        This is an open source repository.
+
+        * For questions, ask in [Discussions](https://github.com/orgs/codinasion/discussions).
+        * Check to make sure someone hasn't already opened a similar [issue](https://github.com/codinasion/readme-components/issues).
 
   - type: markdown
     attributes:
@@ -30,3 +30,12 @@ body:
       description: Is there anything else we should know about this issue?
     validations:
       required: false
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: This project has a Code of Conduct that all participants are expected to understand and follow.
+      options:
+        - label: I have read and agree to the Codinasion project's [Code of Conduct](CODE_OF_CONDUCT.md)
+          required: true
